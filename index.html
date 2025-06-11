@@ -1,106 +1,51 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Do Campo à Cidade</title>
   <style>
     body {
+      display: flex;
       font-family: Arial, sans-serif;
-      background-color: #ffffff;
-      color: #333;
       margin: 0;
-      padding: 0;
     }
-
-    header {
-      background-color: #90ee90;
-      color: #ffffff;
-      text-align: center;
-      padding: 30px 0;
+    .sidebar {
+      width: 30%;
+      background-color: #f0f0f0;
+      padding: 10px;
+      box-shadow: 2px 0 5px rgba(0,0,0,0.1);
     }
-
-    nav {
-      background-color: #b2fab4;
-      text-align: center;
-      padding: 10px 0;
+    .sidebar img {
+      width: 100%;
+      margin-bottom: 10px;
+      border-radius: 8px;
     }
-
-    nav a {
-      color: #2f4f2f;
-      margin: 0 15px;
-      text-decoration: none;
-      font-weight: bold;
+    .content {
+      width: 70%;
+      padding: 20px;
     }
-
-    nav a:hover {
-      text-decoration: underline;
-    }
-
-    section {
-      padding: 30px 20px;
-    }
-
-    h2 {
-      color: #228b22;
-    }
-
-    .imagem-campo {
-      display: block;
-      max-width: 90%;
-      margin: 20px auto;
-      border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-    }
-
-    footer {
-      background-color: #90ee90;
-      color: white;
-      text-align: center;
-      padding: 15px 0;
+    h1, h2 {
+      color: #2c3e50;
     }
   </style>
 </head>
 <body>
-
-  <header>
+  <div class="sidebar">
+    <img src="dji_fly_20250215_173614_316_1739654212851_photo.jpg" alt="Foto aérea do campo">
+    <img src="IMG_20250116_145000.jpg" alt="Plantação vista do solo">
+    <img src="IMG_20250116_145002.jpg" alt="Campo com plantação de soja">
+  </div>
+  <div class="content">
     <h1>Do Campo à Cidade</h1>
-    <p>Conheça a transformação entre o ambiente rural e o urbano.</p>
-  </header>
 
-  <nav>
-    <a href="#campo">O Campo</a>
-    <a href="#cidade">A Cidade</a>
-    <a href="#conclusao">Conclusão</a>
-  </nav>
+    <h2>Texto sobre o Campo</h2>
+    <p>O campo representa a origem da produção agrícola e o contato direto com a natureza. Nele, a vida é mais tranquila e conectada ao ritmo das estações. No entanto, muitas vezes há falta de acesso a serviços essenciais como saúde, educação e lazer.</p>
 
-  <section id="campo">
-    <h2>O Campo</h2>
-    <p>A vida no campo é marcada pela tranquilidade e pelo contato direto com a natureza. As paisagens são verdes, os sons são mais suaves e o tempo parece passar mais devagar. As pessoas vivem em maior harmonia com o ambiente, valorizando a terra, os ciclos naturais e as tradições familiares. A rotina rural pode ser exigente, com muito trabalho físico, mas também oferece recompensas como ar puro, silêncio e qualidade de vida.
+    <h2>Texto sobre a Cidade</h2>
+    <p>A cidade, por sua vez, oferece uma ampla gama de oportunidades, com acesso a serviços, empregos e tecnologia. No entanto, enfrenta desafios como a poluição, o trânsito e a desigualdade social.</p>
 
-</p>
-
-    <!-- Imagens do campo -->
-    <img src="dji_fly_20250215_173614_316_1739654212851_photo.jpg" alt="Vista aérea do campo" class="imagem-campo">
-    <img src="IMG_20250116_145000.jpg" alt="Plantação verde com céu azul" class="imagem-campo">
-    <img src="IMG_20250116_145002.jpg" alt="Folhas de plantações verdes" class="imagem-campo">
-  </section>
-
-  <section id="cidade">
-    <h2>A Cidade</h2>
-    <p>A cidade é um espaço dinâmico, cheio de movimento e diversidade. Nela encontramos grandes construções, muitos carros, pessoas apressadas e uma ampla oferta de serviços. É um lugar onde tudo acontece ao mesmo tempo: negócios, cultura, lazer e inovações. A vida urbana é acelerada e exige adaptação constante, mas oferece oportunidades únicas de desenvolvimento pessoal e profissional.    </p>
-  </section>
-
-  <section id="conclusao">
-    <h2>Conclusão</h2>
-    <p>A migração do campo para a cidade foi um processo marcante no desenvolvimento das sociedades modernas. Movidas por sonhos de melhores condições de vida, muitas pessoas deixaram o meio rural em busca de oportunidades nas áreas urbanas, como empregos, educação e acesso a serviços. Esse movimento transformou profundamente tanto o campo quanto as cidades.
-
-No entanto, é importante reconhecer que ambos os espaços são fundamentais e se complementam. O campo continua sendo a base da produção de alimentos e recursos naturais, enquanto a cidade concentra inovação, tecnologia e serviços. Valorizar o equilíbrio entre esses dois mundos é essencial para garantir um futuro mais justo, sustentável e conectado para todos.</p>
-  </section>
-
-  <footer>
-    <p>&copy; 2025 - Site Educativo "Do Campo à Cidade" - Desenvolvido por Andriel Moreira</p>
-  </footer>
-
+    <h2>Conclusão sobre a Migração</h2>
+    <p>A migração do campo para a cidade é um fenômeno impulsionado pela busca de melhores condições de vida. Embora a cidade ofereça mais recursos, essa transição muitas vezes gera desafios, como a superpopulação urbana e o esvaziamento das áreas rurais. O ideal seria promover políticas que valorizem o campo e equilibrem o desenvolvimento entre os dois espaços.</p>
+  </div>
 </body>
 </html>
